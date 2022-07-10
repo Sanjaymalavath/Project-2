@@ -1,0 +1,239 @@
+
+/* Top heading  */
+
+.flex-container{
+    width: 60vw;
+    height: 80vh;
+    margin-top: 6%;
+    margin-left: 20%;
+}
+
+.contain-1{
+    height: 20%;
+    width: 60vw;
+    display: block;
+}
+
+.para-0{
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 5px;
+    color: gray;
+    font-size: 30px;
+    font-weight: 1px;
+    font-family: serif;
+    width: 200px;
+    margin-left: 2%;
+}
+
+.task{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.absolute{
+    position: absolute;
+    padding: 30px;
+    right: 20%;
+}
+
+.material-icons{
+    font-size: 40px !important;
+    color: orangered !important;
+    vertical-align: middle;
+
+}
+
+ .tagadd{
+    position: relative;
+    vertical-align: middle;
+    color: gray;
+    
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+
+/*  Card div  */
+
+.contain-2{
+    display: block;
+    height: 80%;
+    width: 60vw;
+    bottom: 0;
+    margin-top: 0;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 130px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 1rem;
+    height: 250px;
+    position: relative;
+    box-shadow: 4px 4px 4px gray;
+    padding-right: 60px;
+    
+}
+
+
+h4{
+    text-align: right;
+    margin-top: 10px;
+    color: rgb(231, 134, 99);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+a{
+    color: rgb(231, 134, 99);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+hr{
+    position: absolute;
+    width: 80%;
+    right: 0;
+    top: 50px;
+}
+
+del{
+    position: absolute;
+    right: 10px;
+    padding: 10px ;
+    padding-top: 30px;
+    padding-right: 40px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.labe{
+    margin-top: 60px;
+    font-size: 18px;
+
+}
+
+/*   TRIP TO PARIS   */
+
+
+.tripdiv{
+    width: 100vw;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.line-left{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+    width: 20%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px gray;
+    margin-right: 5px;
+}
+
+.line-right{
+    border-bottom: 3px solid orangered;
+    width : 20%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px gray;
+    margin-left: 5px;
+}
+
+.classdev > div {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.to{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.back{
+    padding-top: 50px;
+    padding-left: 25%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.box-1{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    padding-top: 30px;
+}
+
+.material-icons-add{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+}
+
+
+
+
+/* ADD LIST  &  ADD NEW LIST*/
+
+.block{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    
+}
+
+.add{
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.add span{
+    display: block;
+    font-family: monospace;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.add button{
+    display: block;
+    color: white;
+    background-color: orangered;
+    border: 5px solid orangered;
+    border-radius: 20px;
+    position: relative;
+    left: 155px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.inputtext{
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+
+/*  background  */
+
+.filter{
+    
+    filter: blur(5px);
+}
